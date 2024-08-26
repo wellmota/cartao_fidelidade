@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Principal */
+  --color-pink: #d658b3;
+  --color-green: #45b442;
+
+  /* Base */
+  --color-gray-700: #332b31;
+  --color-gray-600: #4a4448;
+  --color-gray-500: #756c71;
+  --color-gray-400: #d3cfd2;
+  --color-gray-300: #dfdcdf;
+  --color-gray-200: #e9e7e9;
+  --color-gray-100: #f4f1f2;
+  --color-white: #ffffff;
+
+  /* Gradiente */
+  --gradient-base: linear-gradient(
+    90deg,
+    #2daa6e 0%,
+    #2daaaa 33.33%,
+    #856ccf 66.67%,
+    #d658b3 100%
+  );
+
+  /*Brand*/
+  --primary-color: var(--color-pink);
+  --secondary-color: var(--color-green);
+
+  /* Font Family */
+  --font-family-primary: 'Oxygen', sans-serif;
+
+  /* Font Sizes */
+  --font-size-title-md: 24px;
+  --font-size-title-sm: 18px;
+  --font-size-subtitle-md: 14px;
+  --font-size-subtitle-sm: 12px;
+  --font-size-text-md: 16px;
+  --font-size-text-sm: 14px;
+  --font-size-text-xs: 12px;
+
+  /* Line Heights */
+  --line-height: 140%;
+
+  /* Font Weights */
+  --font-weight-bold: 700;
+  --font-weight-regular: 400;
+
+  /* Text Transformations */
+  --text-transform-uppercase: uppercase;
+  --text-transform-default: none;
+}

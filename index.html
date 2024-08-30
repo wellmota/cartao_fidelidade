@@ -4,10 +4,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cartão Fidelidade</title>
+  <link rel="stylesheet" href="./style/index.css">
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <title>Members Club</title>
 </head>
 
 <body>
+  <main>
+    <header>
+      <div class="brand">
+        <img src="./assets/Logo.png" alt="">
+      </div>
+    </header>
+    <section id="search" class="flex">
+      <div class="input-container">
+        <input type="text" placeholder="ID do cartão">
+      </div>
+    </section>
+
+    <aside>
+      <div class="user-profile flex">
+        <div class="profile-picture">
+          <img src="./assets/avatar.jpg" alt="">
+        </div>
+
+        <div class="user-info">
+          <h2>Natália Miranda</h2>
+          <span>Cliente desde 18/09/2023</span>
+        </div>
+
+      </div>
+      <div class="user-history flex flex-column">
+        <header class="flex">
+          <h4>Histórico</h4>
+          <span class="text-xs">7 cortes</span>
+        </header>
+        <div class="scroll-area flex">
+          <ul class="flex">
+            <li class="flex">
+              <div class="subtitle-sm flex">
+                29/04/2024 <span class="text-xs">18:30</span>
+              </div>
+              <div class="filed-icon">
+                <img src="./assets/check-washed.svg" class="filed-icon" alt="check">
+              </div>
+            </li>
+            <li class="flex">
+              <div class="subtitle-sm flex">
+                29/04/2024 <span class="text-xs">18:30</span>
+              </div>
+              <div class="filed-icon">
+                <img src="./assets/check-washed.svg" class="filed-icon" alt="check">
+              </div>
+            </li>
+
+
+          </ul>
+        </div>
+
+      </div>
+    </aside>
+  </main>
 
 </body>
 

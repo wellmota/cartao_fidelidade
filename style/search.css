@@ -1,0 +1,9 @@
+#search {
+  justify-content: center;
+  width: 100%;
+  margin-top: var(--size-xlarge);
+  margin-bottom: var(--size-4xlarge);
+  & .input-container {
+    width: 25rem;
+  }
+}

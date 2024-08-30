@@ -1,0 +1,46 @@
+input:focus,
+select:focus,
+textarea:focus,
+input[type="text"]:focus-within {
+  outline: 0.015rem solid var(--primary-color);
+  border: 0.025rem solid var(--primary-color);
+  outline-offset: 0.1px;
+}
+
+
+.input-container {
+  position: relative;
+  display: inline-block;
+  width: 300px; /* Adjust the width as needed */
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 15px;
+  padding-right: 50px;
+  height: 3.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.75rem;
+  background-color: #E9E7E9;
+  font-size: 16px;
+  color: #6A6A6A;
+}
+
+.input-container::before {
+  content: ''; 
+  font-size: 18px;
+  background-color: #6A6A6A;
+  padding: 20px;
+  border-radius: 10%;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: url(../assets/enter-icon.svg) center/contain;
+  pointer-events: none; /* Ensures the icon doesn't block input events */
+}
+
+input[type="text"]::placeholder {
+  color: #6A6A6A; /* Match the text color with placeholder */
+  opacity: 1; /* Ensures full opacity */
+}

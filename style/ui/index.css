@@ -1,0 +1,9 @@
+.pill {
+  display: inline-block;
+  background-color: var(--color-gray-300);
+  border-radius: 100px;
+  padding: 0.37rem 0.75rem;
+  align-self: flex-start;
+}
+
+

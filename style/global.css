@@ -24,7 +24,7 @@
   --color-white: #ffffff;
 
   /* Auxiliary colors */
-  --color-green-100:#dfeadd;
+  --color-green-100: #dfeadd;
   --color-green-200: #c2d8b9;
   --color-green-400: #87cc7a;
   --color-green-600: #5eb24f;
@@ -79,7 +79,18 @@
 }
 
 /* Reset all */
-html, body, p, h1, h2, h3, h4, h5, h6, ul, ol, li {
+html,
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li {
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -148,3 +159,8 @@ p,
   flex-direction: row;
 }
 
+.card-style {
+  background-color: white;
+  border: 1px solid var(--color-gray-300);
+  border-radius: 1rem;
+}

@@ -1,0 +1,34 @@
+.member-card {
+  width: 40rem;
+  gap: 2rem;
+  &.card-style {
+    align-self: start;
+    padding: 2.25rem;
+  }
+
+  & header{
+    gap: 3rem;
+  }
+
+}
+
+.stamps {
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 1rem;
+  justify-content: space-around;
+  & .pin {
+    display: inline-block;
+    width: 5.5rem;
+    height: 5.5rem;
+    background-color: var(--color-gray-200);
+    border-radius: 1.25rem;
+
+    & img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  }
+}

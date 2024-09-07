@@ -4,6 +4,9 @@
   border-radius: 100px;
   padding: 0.37rem 0.75rem;
   align-self: flex-start;
+  color: var(--color-gray-500);
+  font-size: var(--font-size-subtitle-md);
+  font-weight: 600;
 }
 
 

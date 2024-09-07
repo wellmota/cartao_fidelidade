@@ -1,15 +1,16 @@
 .member-card {
   width: 40rem;
   gap: 2rem;
+  color: var(--color-gray-500);
   &.card-style {
     align-self: start;
     padding: 2.25rem;
+    padding-bottom: 2rem;
   }
 
-  & header{
+  & header {
     gap: 3rem;
   }
-
 }
 
 .stamps {
@@ -21,8 +22,9 @@
     display: inline-block;
     width: 5.5rem;
     height: 5.5rem;
-    background-color: var(--color-gray-200);
+    background-color: var(--color-gray-100);
     border-radius: 1.25rem;
+    padding: 0.59rem;
 
     & img {
       width: 100%;
@@ -31,4 +33,24 @@
       border-radius: 50%;
     }
   }
+}
+
+.stamps .pin[disabled] {
+  & img {
+    display: none;
+  }
+}
+
+.badge {
+  position: relative;
+  padding: 0;
+  background-color: var(--color-gray-100);
+  border-radius: 50%;
+  height: 72px;
+  
+  & img {
+    width: 72px;
+    height: auto;
+  }
+
 }

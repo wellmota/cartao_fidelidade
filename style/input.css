@@ -7,7 +7,6 @@ input[type="text"]:focus-within {
   outline-offset: 0.1px;
 }
 
-
 .input-container {
   position: relative;
   display: inline-block;
@@ -21,15 +20,15 @@ input[type="text"] {
   height: 3.5rem;
   border: 1px solid #ccc;
   border-radius: 0.75rem;
-  background-color: #E9E7E9;
+  background-color: #e9e7e9;
   font-size: 16px;
-  color: #6A6A6A;
+  color: #6a6a6a;
 }
 
 .input-container::before {
-  content: ''; 
+  content: "";
   font-size: 18px;
-  background-color: #6A6A6A;
+  background-color: #6a6a6a;
   padding: 20px;
   border-radius: 10%;
   position: absolute;
@@ -41,6 +40,12 @@ input[type="text"] {
 }
 
 input[type="text"]::placeholder {
-  color: #6A6A6A; /* Match the text color with placeholder */
+  color: #6a6a6a; /* Match the text color with placeholder */
   opacity: 1; /* Ensures full opacity */
+}
+
+@media screen and (max-width: 768px) {
+  .input-container {
+    width: 100%;
+  }
 }

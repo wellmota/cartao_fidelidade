@@ -9,3 +9,9 @@ main > header {
     width: 7.25rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  main > header {
+    padding-top: var(--size-2xlarge);
+  }
+}

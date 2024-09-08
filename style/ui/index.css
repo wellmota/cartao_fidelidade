@@ -9,4 +9,9 @@
   font-weight: 600;
 }
 
-
+@media screen and (max-width: 768px) {
+  .pill {
+    max-width: 10rem;
+    text-wrap: nowrap;
+  }
+}

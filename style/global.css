@@ -164,3 +164,10 @@ p,
   border: 1px solid var(--color-gray-300);
   border-radius: 1rem;
 }
+
+@media screen and (max-width: 768px) {
+  p,
+  .text-md {
+    font: 400 12px/140% "Oxygen", sans-serif;
+  }
+}

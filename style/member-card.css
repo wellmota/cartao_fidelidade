@@ -1,5 +1,5 @@
 .member-card {
-  width: 40rem;
+  max-width: 40rem;
   gap: 2rem;
   color: var(--color-gray-500);
   &.card-style {
@@ -47,10 +47,27 @@
   background-color: var(--color-gray-100);
   border-radius: 50%;
   height: 72px;
-  
+
   & img {
     width: 72px;
     height: auto;
   }
+}
 
+@media screen and (max-width: 768px) {
+  .member-card {
+    &.card-style {
+      padding: 1.25rem;
+    }
+
+    .stamps {
+      justify-content: flex-start;
+    }
+  }
+  .badge {
+    height: 56px;
+    & img {
+      width: 56px;
+    }
+  }
 }

@@ -16,6 +16,7 @@ import "./style/search.css"
 import "./style/container.css"
 import "./style/member-card.css"
 import "./style/progress.css"
+import "./style/modal.css"
 
 // MODULES
 

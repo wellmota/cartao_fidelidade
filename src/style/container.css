@@ -1,18 +1,16 @@
 section.container {
- gap: 1rem;
-justify-content: center;
+  gap: 1rem;
+  justify-content: center;
+  max-height: 32.375rem;
 }
 
 .container {
   gap: 1rem;
 }
 
-
 @media screen and (max-width: 768px) {
   section.container {
     flex-direction: column;
-    padding-inline: .75rem;
-  
+    padding-inline: 0.75rem;
   }
-  
 }

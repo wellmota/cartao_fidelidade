@@ -165,6 +165,26 @@ p,
   border-radius: 1rem;
 }
 
+/* For Webkit browsers (Chrome, Safari, etc) */
+.user-history .scroll-area {
+  -webkit-overflow-scrolling: touch; /* For smooth scrolling on mobile devices */
+  overflow-y: scroll; /* Enables vertical scrolling */
+}
+
+.user-history .scroll-area::-webkit-scrollbar {
+  width: 0px; /* Hides the scrollbar */
+  background: transparent; /* Removes any background that might appear */
+}
+
+/* For browsers like Firefox */
+.user-history .scroll-area {
+  scrollbar-width: none; /* Hides the scrollbar in Firefox */
+}
+
+.user-history .scroll-area::-moz-scrollbar {
+  display: none; /* Hides the scrollbar in Firefox */
+}
+
 @media screen and (max-width: 768px) {
   p,
   .text-md {

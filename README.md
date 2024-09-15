@@ -2,6 +2,9 @@ Member Club - Projeto de Estudo
 
 # Member Club - Projeto de Estudo
 
+![image](https://github.com/user-attachments/assets/29471024-5704-47a4-b3f8-613e1091a36d)
+
+
 ## Descrição
 
 Este é um projeto de estudo para implementar uma interface web simples para gerenciar clientes de um sistema de fidelidade. O projeto explora conceitos como **manipulação do DOM**, **validação de formulários**, **exibição dinâmica de dados**, **tratamento de erros**, além de boas práticas como **modularização do código** e uso de ferramentas como **Webpack** e **Babel**.

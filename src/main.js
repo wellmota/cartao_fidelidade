@@ -16,3 +16,10 @@ import "./style/search.css"
 import "./style/container.css"
 import "./style/member-card.css"
 import "./style/progress.css"
+
+// MODULES
+
+import "./modules/page-load.js"
+import "./services/clients-fetch.js"
+import "./services/show.js"
+import "./modules/search/search-member.js"

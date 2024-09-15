@@ -13,37 +13,6 @@ input[type="text"]:focus-within {
   width: 300px; /* Adjust the width as needed */
 }
 
-input[type="text"] {
-  width: 100%;
-  padding: 15px;
-  padding-right: 50px;
-  height: 3.5rem;
-  border: 1px solid #ccc;
-  border-radius: 0.75rem;
-  background-color: #e9e7e9;
-  font-size: 16px;
-  color: #6a6a6a;
-}
-
-.input-container::before {
-  content: "";
-  font-size: 18px;
-  background-color: #6a6a6a;
-  padding: 20px;
-  border-radius: 10%;
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  background: url(../assets/enter-icon.svg) center/contain;
-  pointer-events: none; /* Ensures the icon doesn't block input events */
-}
-
-input[type="text"]::placeholder {
-  color: #6a6a6a; /* Match the text color with placeholder */
-  opacity: 1; /* Ensures full opacity */
-}
-
 @media screen and (max-width: 768px) {
   .input-container {
     width: 100%;

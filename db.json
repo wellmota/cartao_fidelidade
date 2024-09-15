@@ -48,8 +48,8 @@
         { "date": "20/12/2023", "time": "15:15" }
       ],
       "loyaltyCard": {
-        "totalCuts": 5,
-        "cutsNeeded": 8,
+        "totalCuts": 7,
+        "cutsNeeded": 10,
         "cutsRemaining": 3
       }
     }

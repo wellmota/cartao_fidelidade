@@ -12,5 +12,6 @@ section.container {
   section.container {
     flex-direction: column;
     padding-inline: 0.75rem;
+    max-height: none;
   }
 }
